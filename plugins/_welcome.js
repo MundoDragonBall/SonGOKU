@@ -46,7 +46,7 @@ await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal, estilo)
   }
   
   if (chat.bienvenida && m.messageStubType == 32) {
-    let kick = `✗ *╔══════════════*
+    let kick = `*╔══════════════*
 *║   Se fue el saiyan* 
 *║ 「 @${m.messageStubParameters[0].split`@`[0]} 」 un saiyan*
 *║   de clase baja, no* 
